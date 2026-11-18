@@ -5,10 +5,6 @@
 **Members:** An Dinh, Sarabeth Shannon
 
 
-Software Quality Assurance project (COMP 5710/6710, Fall 2026), applied to the
-slikube / KubeSec Kubernetes manifest scanner. See [SQA-REPO.md](SQA-REPO.md)
-for the full report.
-
 ## Setup
 
 Requires Python 3.11+ and [yq](https://github.com/mikefarah/yq) (used by the scanner).
