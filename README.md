@@ -11,7 +11,7 @@ Requires Python 3.11+ and [yq](https://github.com/mikefarah/yq) (used by the sca
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate # FOR WINDOWS: .venv/Scripts/activate
 pip install ruamel.yaml pandas numpy pyyaml typer sarif-om jschema-to-python
 brew install yq        # macOS; preinstalled on GitHub Actions runners
 ```

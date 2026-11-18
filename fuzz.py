@@ -83,6 +83,8 @@ SECTION_1 = [
 
 # 6. scanner.isValidUserName(uName)
 # TODO
+def fuzz_isValidUserName():
+    runFuzz("scanner.isValidUserName", scanner.isValidUserName, lambda: randomString(),)
 
 # 7. scanner.isValidPasswordName(pName)
 # TODO
@@ -98,6 +100,7 @@ SECTION_1 = [
 
 SECTION_2 = [
     # add Section 2 functions here
+    fuzz_isValidUserName,
 ]
 
 # report entries
